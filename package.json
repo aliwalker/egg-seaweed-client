@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-seaweed-client.git"
+    "url": "git+https://github.com/aliwalker/egg-seaweed-client.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-seaweed-client#readme",
+  "homepage": "https://github.com/aliwalker/egg-seaweed-client#readme",
   "author": "aliwalker",
   "license": "MIT"
 }
