@@ -35,7 +35,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+
 
 ## Questions & Suggestions
 
