@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "form-data": "^2.3.3"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -20,11 +22,7 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0",
-    "form-data": "^2.3.3"
-  },
-  "peerDependencies": {
-    "form-data": "^2.3.3"
+    "eslint-config-egg": "^7.1.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -41,6 +39,7 @@
   },
   "files": [
     "config",
+    "agent.js",
     "app.js",
     "lib"
   ],
