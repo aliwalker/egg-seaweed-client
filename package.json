@@ -1,6 +1,6 @@
 {
   "name": "egg-seaweed-client",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A plugin that provides a seaweed client.",
   "eggPlugin": {
     "name": "weedfs"
@@ -28,6 +28,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
+    "pub:minor": "npm version minor --force && npm publish",
     "test": "egg-bin pkgfiles && npm run test-local",
     "lint-fix": "npm run lint -- --fix",
     "test-local": "egg-bin test",
